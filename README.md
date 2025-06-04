@@ -2,7 +2,7 @@
 This is just my personal script to convert Jpg to Webp.
 
 ### To do
-- Auto find jpeg file without rename it to input.jpg in directory
+- Auto find jpeg file without rename it to `input.jpg` in directory
 - Convert multiple jpg/jpeg file in one process
 - Add another file type
   - PNG
