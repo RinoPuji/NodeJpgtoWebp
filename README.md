@@ -2,10 +2,10 @@
 This is just my personal script to convert Jpg to Webp.
 
 ### To do
-- Auto find jpeg file without rename it to `input.jpg` in directory
-- Convert multiple jpg/jpeg file in one process
+- [x] Auto find jpeg file without rename it to `input.jpg` in directory 
+- [x] Convert multiple jpg/jpeg file in one process
 - Add another file type
-  - PNG
+  - [ ] PNG
 
 ## Instruction
 1. Whatever machine or OS we using,make sure node is installed.
@@ -25,7 +25,7 @@ npm init -y
 npm install sharp
 ```
 4. Put the `convertwebp.js` script to folder "Test" or you can create new directory/file,for example `Test\WebpConverter\`
-5. Put the jpeg inside `convertwebp.js` folder and rename it to `input.jpg/jpeg`.
+5. Put the jpeg inside `convertwebp.js` folder and ~rename it to `input.jpg/jpeg`~ run the script.
 6. Run the script
 ```batch
 node convertwebp.js
